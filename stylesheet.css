@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body {
+    background-color: rgb(210, 213, 214);
+}
+
+.homepageheader {
+    background-color: rgb(59, 107, 126);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    font-size: 48px;
+    width: 70%;
+    margin: auto;
+
+}
+
+.button-container {
+    display: flexbox;
+}
+
+button {
+    font-size: 24px;
+    padding: 32px;
+    display: block;
+    margin: 16px auto;
+}
+
+
+.favorite {
+    border: 5px solid rgb(124, 161, 175);
+    margin-top: 56px;
+}
+
+.mealprep {
+    border: 5px solid rgb(124, 161, 175);
+}
+
+
+.winter {
+    border: 5px solid rgb(124, 161, 175);
+}
