@@ -22,6 +22,13 @@ html {
 
 }
 
+.image-container {
+    width: 70%;
+    margin: 48px auto;
+    
+}
+
+
 .button-container {
     display: flexbox;
 }
@@ -29,6 +36,7 @@ html {
 button {
     font-size: 24px;
     padding: 32px;
+    content: 32px;
     display: block;
     margin: 16px auto;
 }
